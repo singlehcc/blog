@@ -2,14 +2,18 @@
 title: Vue组件之间的通信
 date: 2018-03-06 11:42:56
 tags:
+- vue
+- 组件通信
+categories:
+- 前端
 ---
 在项目中遇到vue组件的通信的问题，本文从实际项目入手，讲解vue组件通信的几种方式
 # 场景
-![new repository](../images/edit.jpg) 
+![new repository](/images/edit.jpg)
 点击编辑需要打开一个模态框，需要将显示隐藏的状态传给子组件
-![new repository](../images/modal.jpg) 
+![new repository](/images/modal.jpg)
 点击模态框中的取消、确定、关闭按钮需要将模态框隐藏掉，此时需要把当前状态传给父组件。
-![new repository](../images/components.jpg) 
+![new repository](/images/components.jpg)
 
 ## 方法一(采用props通信)
 
@@ -23,7 +27,7 @@ handleEdit() {
 ...
 ```
 子组件接收到`props`，
-![new repository](../images/dialog-html.jpg)
+![new repository](/images/dialog-html.jpg)
 ```JavaScript
 ...
 props: {
@@ -89,5 +93,3 @@ handleClose() {
 },
 ...
 ```
-
-

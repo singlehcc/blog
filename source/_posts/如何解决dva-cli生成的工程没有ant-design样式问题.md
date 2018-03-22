@@ -2,6 +2,10 @@
 title: 如何解决dva-cli生成的工程没有ant-design样式问题
 date: 2018-01-24 11:42:56
 tags:
+- antd
+- dva-cli
+categories:
+- 前端
 ---
 之前用`dva-cli`脚手架搭建react工程，引入了`ant`,发现没有样式应用,但元素的`class`已经添加。网上搜了，相应的资料寥寥无几。
 

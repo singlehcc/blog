@@ -2,6 +2,10 @@
 title: 快速构建github+hexo博客
 date: 2018-01-18 11:42:56
 tags:
+- github
+- hexo
+categories:
+- hexo
 ---
 一直想搭建一个属于自己的博客，网上看了很多教程有些不够详细有些又漏了比较重要的步骤。
 
@@ -20,9 +24,9 @@ _注_:`npm`其实是Node.js的包管理工具,npm已经在Node.js安装的时候
 1. 首先你要注册一个github账号
 2. 新建一个repo,repo名字格式为： `yourname.github.io` 例如：`singlehcc.github.io` ( 因为我已经创建，所以会有错误提示 )
 
- ![new repository](../images/new-repo.jpg)  
+ ![new repository](/images/new-repo.jpg)  
 
- ![repository name](../images/repo-name.jpg)
+ ![repository name](/images/repo-name.jpg)
 3. 克隆repo到本地  
 
 ### github原理
