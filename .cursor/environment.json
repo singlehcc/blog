@@ -1,0 +1,4 @@
+{
+  "install": "npm install\nbash .cursor/bootstrap.sh",
+  "start": "exec npx hexo server -i 0.0.0.0 -p 4000"
+}
